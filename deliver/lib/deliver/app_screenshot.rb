@@ -245,7 +245,8 @@ module Deliver
           [768, 1004],
           [768, 1024],
           [1536, 2008],
-          [1536, 2048]
+          [1536, 2048],
+          [2048, 2732]
         ],
         ScreenSize::IOS_IPAD_10_5_MESSAGES => [
           [1668, 2224],
@@ -256,8 +257,6 @@ module Deliver
           [2388, 1668]
         ],
         ScreenSize::IOS_IPAD_PRO_MESSAGES => [
-          [2732, 2048],
-          [2048, 2732]
         ]
       }
     end
@@ -315,7 +314,8 @@ module Deliver
           [768, 1004], # portrait without status bar
           [768, 1024],
           [1536, 2008], # portrait without status bar
-          [1536, 2048]
+          [1536, 2048],
+          [2048, 2732]
         ],
         ScreenSize::IOS_IPAD_10_5 => [
           [1668, 2224],
@@ -326,8 +326,6 @@ module Deliver
           [2388, 1668]
         ],
         ScreenSize::IOS_IPAD_PRO => [
-          [2732, 2048],
-          [2048, 2732]
         ],
         ScreenSize::MAC => [
           [1280, 800],
@@ -355,6 +353,7 @@ module Deliver
     end
 
     def self.resolve_ipadpro_conflict_if_needed(screen_size, filename)
+      puts screen_size
       is_3rd_gen = [
         "iPad Pro (12.9-inch) (3rd generation)", # Default simulator has this name
         "iPad Pro (12.9-inch) (4th generation)", # Default simulator has this name
