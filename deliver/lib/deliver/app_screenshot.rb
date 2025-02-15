@@ -365,9 +365,11 @@ module Deliver
       ].any? { |key| filename.include?(key) }
       if is_3rd_gen
         if screen_size == ScreenSize::IOS_IPAD_PRO
-          return ScreenSize::IOS_IPAD_PRO_12_9
+          puts "got to IOS_IPAD_PRO"
+          return ScreenSize::IOS_IPAD_PRO
         elsif screen_size == ScreenSize::IOS_IPAD_PRO_MESSAGES
-          return ScreenSize::IOS_IPAD_PRO_12_9_MESSAGES
+          puts "got to IOS_IPAD_PRO_MESSAGES"
+          return ScreenSize::IOS_IPAD_PRO_MESSAGES
         end
       end
       screen_size
