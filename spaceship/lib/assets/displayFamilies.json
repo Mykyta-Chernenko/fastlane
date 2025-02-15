@@ -11,7 +11,8 @@
       [768, 1004],
       [768, 1024],
       [1024, 748],
-      [1024, 768]
+      [1024, 768],
+      [2048, 2732]
     ],
     "picture_type": "MZPFT.SortedTabletScreenShot",
     "messages_picture_type": "MZPFT.SortedTabletMessagesScreenShot"
@@ -32,8 +33,6 @@
     "friendly_name": "iPad Pro (2nd Generation) 12.9-inch Display",
     "friendly_category_name": "iPad",
     "screenshot_resolutions": [
-      [2048, 2732],
-      [2732, 2048]
     ],
     "picture_type": "MZPFT.SortedJ99ScreenShot",
     "messages_picture_type": "MZPFT.SortedJ99MessagesScreenShot"
@@ -54,8 +53,6 @@
     "friendly_name": "iPad Pro (3rd Generation) 12.9-inch Display",
     "friendly_category_name": "iPad",
     "screenshot_resolutions": [
-      [2048, 2732],
-      [2732, 2048]
     ],
     "picture_type": "MZPFT.SortedJ320ScreenShot",
     "messages_picture_type": "MZPFT.SortedJ320MessagesScreenShot"
